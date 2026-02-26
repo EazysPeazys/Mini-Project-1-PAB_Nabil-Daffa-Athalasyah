@@ -21,6 +21,7 @@
 <img width="627" height="1020" alt="Screenshot 2026-02-26 090406" src="https://github.com/user-attachments/assets/b1f0312b-7c1e-4cd9-8dbf-0c550a481fc3" />
 
 **Deskripsi:**
+
 Halaman pembuka yang menyambut pengguna dengan desain elegan bertema *Premium Navy & Gold*. Halaman ini berfungsi sebagai gerbang utama dan memiliki tombol navigasi **"Start Managing Portfolio"** untuk masuk ke sistem utama.
 
 ### 2. Halaman Utama (Home & Portfolio)
