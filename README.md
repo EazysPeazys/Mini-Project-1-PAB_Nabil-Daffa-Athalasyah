@@ -1,5 +1,19 @@
 # 📈 Nabdaff Management Portfolio System
 
+---
+
+## 👤 Informasi Project
+
+**Nama: Nabil Daffa Athalasyah**
+
+**NIM: 2409116090**
+
+**Kelas: C 2024**
+
+**Mini Project Pemrograman Berbasis Web**
+
+---
+
 ### Mini Project 1 - Praktikum Pemrograman Aplikasi Bergerak
 
 Aplikasi **Nabdaff Management Portfolio System** adalah platform manajemen aset investasi sederhana yang dirancang untuk membantu pengguna melacak berbagai instrumen investasi (seperti Saham, Crypto, Emas, dll.) dalam satu wadah yang terorganisir. Aplikasi ini dibangun menggunakan framework Flutter dengan menerapkan prinsip desain yang elegan dan user-friendly.
