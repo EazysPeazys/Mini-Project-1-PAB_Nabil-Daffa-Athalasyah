@@ -3,69 +3,75 @@
 ---
 
 ## 👤 Informasi Project
-
-**Nama: Nabil Daffa Athalasyah**
-
-**NIM: 2409116090**
-
-**Kelas: C 2024**
-
-**Mini Project Pemrograman Berbasis Web**
+* **Nama**: Nabil Daffa Athalasyah
+* **NIM**: 2409116090
+* **Kelas**: C 2024
+* **Mata Kuliah**: Praktikum Pemrograman Aplikasi Bergerak
 
 ---
 
-### Mini Project 1 - Praktikum Pemrograman Aplikasi Bergerak
-
-Aplikasi **Nabdaff Management Portfolio System** adalah platform manajemen aset investasi sederhana yang dirancang untuk membantu pengguna melacak berbagai instrumen investasi (seperti Saham, Crypto, Emas, dll.) dalam satu wadah yang terorganisir. Aplikasi ini dibangun menggunakan framework Flutter dengan menerapkan prinsip desain yang elegan dan user-friendly.
-
----
-
-## 🚀 Fitur Utama
-Aplikasi ini telah memenuhi seluruh kriteria **Fitur Wajib** dan menyertakan **Nilai Tambah** sesuai instruksi:
-
-* **Manajemen Data (CRUD)**:
-    * **Create**: Menambahkan aset investasi baru melalui formulir input.
-    * **Read**: Menampilkan daftar portofolio secara real-time di halaman utama.
-    * **Update**: Fitur untuk mengubah data aset yang sudah terdaftar (Nilai Tambah).
-    * **Delete**: Menghapus data aset dari daftar.
-* **Sistem Input**: Memiliki minimal 3 TextField (Kategori, Nama Aset, dan Nominal).
-* **Navigasi Multi-Halaman**: Menggunakan navigasi dari Landing Page menuju Home Page (Nilai Tambah).
-* **Filter Kategori**: Menyaring daftar aset berdasarkan jenis instrumen investasi.
-* **Notifikasi Interaktif**: Menampilkan SnackBar (pesan sukses) saat berhasil menambah, mengubah, atau menghapus data.
+## 📝 Deskripsi Aplikasi
+**Nabdaff Management Portfolio System** adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu pengguna mengelola portofolio investasi mereka secara digital. Dengan sistem ini, pengguna dapat mencatat aset dari berbagai instrumen seperti Saham, Crypto, Emas, hingga Property dalam satu aplikasi yang aman dan estetik dengan tema **Premium Navy & Gold**.
 
 ---
 
-## 🎨 Tema Aplikasi
-Aplikasi ini menggunakan tema **Premium Navy & Gold**:
-* **Background**: Biru Navy pekat untuk kesan profesional dan elegan.
-* **Aksen**: Warna Kuning Keemasan (Gold) pada icon dan border tombol untuk menonjolkan elemen penting.
-* **Header**: Warna Abu-abu terang (Greyish-Cream) pada AppBar agar teks judul mudah dibaca.
+## 🚀 Dokumentasi Tampilan Aplikasi
+
+### 1. Landing Page
+![Landing Page](<img width="627" height="1020" alt="Screenshot 2026-02-26 090406" src="https://github.com/user-attachments/assets/b1f0312b-7c1e-4cd9-8dbf-0c550a481fc3" />
+)
+**Deskripsi:**
+Halaman pembuka yang menyambut pengguna dengan desain elegan bertema *Premium Navy & Gold*. Halaman ini berfungsi sebagai gerbang utama dan memiliki tombol navigasi **"Start Managing Portfolio"** untuk masuk ke sistem utama.
+
+### 2. Halaman Utama (Home & Portfolio)
+![Home Page](masukkan_link_foto_home)
+**Deskripsi:**
+Halaman ini menampilkan seluruh daftar aset yang dimiliki (Fitur Read). Data ditampilkan dalam bentuk kartu (Card) yang berisi nama aset, kategori, dan nominal.
+
+### 3. Form Input Investasi (Create)
+![Form Page](masukkan_link_foto_form)
+**Deskripsi:**
+Formulir yang digunakan untuk menambahkan aset baru. Pengguna memilih kategori melalui **Dropdown**, memasukkan nama aset, dan nominal. Terdapat validasi untuk memastikan data tidak kosong sebelum disimpan.
+
+### 4. Fitur Update (Edit Aset)
+![Update Aset](masukkan_link_foto_update)
+**Deskripsi:**
+Pengguna dapat mengubah data dengan menekan **Icon Edit (Pensil Biru)** pada daftar aset. Aplikasi akan mengarahkan pengguna kembali ke halaman Form dengan data lama yang sudah terisi otomatis. Setelah disimpan, data akan diperbarui secara real-time disertai notifikasi **SnackBar** berwarna biru.
+
+### 5. Fitur Delete (Hapus Aset)
+![Delete Aset](masukkan_link_foto_delete)
+**Deskripsi:**
+Untuk menghapus aset, pengguna cukup menekan **Icon Delete (Tempat Sampah Merah)**. Data akan langsung terhapus dari daftar portofolio, dan aplikasi akan memunculkan **SnackBar** berwarna merah sebagai konfirmasi bahwa data telah berhasil dihapus.
+
+### 6. Fitur Filter Kategori
+![Filter Aset](masukkan_link_foto_filter)
+**Deskripsi:**
+Terdapat fitur **ChoiceChips** di bagian atas halaman utama yang memungkinkan pengguna menyaring daftar aset berdasarkan 7 kategori (Deposito, Reksa Dana, Obligasi, Emas, Saham, Crypto, Property). Filter "All" digunakan untuk menampilkan kembali seluruh aset.
 
 ---
 
 ## 🛠️ Widget yang Digunakan
-Berikut adalah daftar widget utama yang digunakan beserta fungsinya:
 
-1.  **Scaffold**: Widget utama untuk menyediakan struktur dasar halaman (AppBar, Body, FloatingActionButton).
-2.  **AppBar**: Digunakan untuk menampilkan judul aplikasi di bagian atas dengan kustomisasi warna.
-3.  **ListView.builder**: Menampilkan daftar investasi secara dinamis dan efisien sesuai jumlah data yang ada.
-4.  **TextFormField**: Menangkap input teks dari pengguna untuk Nama Aset dan Nominal investasi.
-5.  **DropdownButtonFormField**: Menyediakan pilihan kategori instrumen investasi dalam bentuk daftar pilihan.
-6.  **ElevatedButton**: Tombol dengan desain khusus untuk navigasi dan aksi simpan data.
-7.  **ChoiceChip**: Widget interaktif yang digunakan untuk fitur filter kategori di halaman utama.
-8.  **Card & ListTile**: Digunakan untuk membungkus rincian setiap aset agar tampilan daftar terlihat rapi.
-9.  **SnackBar**: Memberikan umpan balik visual (notifikasi) setelah pengguna melakukan aksi CRUD.
-10. **Container & BoxDecoration**: Digunakan untuk membuat latar belakang gradien dan styling dekoratif lainnya.
+1. **Scaffold**: Widget kerangka utama yang menyediakan struktur dasar halaman (AppBar, Body, dan FloatingActionButton).
+2. **AppBar**: Header di setiap halaman. Pada halaman utama, AppBar menggunakan warna kustom **Greyish-Cream** agar judul terlihat profesional.
+3. **ListView.builder**: Digunakan untuk merender daftar investasi secara dinamis dan efisien sesuai jumlah data.
+4. **TextFormField**: Menangkap input teks (Nama Aset) dan angka (Nominal) dengan dekorasi *OutlineInputBorder*.
+5. **DropdownButtonFormField**: Widget untuk memilih 1 dari 7 kategori instrumen investasi agar input data valid dan konsisten.
+6. **ElevatedButton**: Tombol utama dengan desain kustom (Hitam dengan teks Putih) yang digunakan pada Landing Page dan Form.
+7. **ChoiceChip**: Widget interaktif berbentuk pil untuk fitur filter kategori agar user-interface lebih modern dan mudah digunakan.
+8. **SnackBar**: Notifikasi melayang yang memberikan feedback instan (Hore!/Mantap!) setelah pengguna melakukan aksi Tambah, Edit, atau Hapus.
+9. **Card & ListTile**: Digunakan untuk membungkus rincian aset agar memiliki tampilan yang terorganisir dengan bayangan (elevation) yang halus.
+10. **Container & BoxDecoration**: Digunakan untuk membuat latar belakang gradien Navy Blue pada Landing Page.
 
 ---
 
 ## 📁 Struktur Proyek
 ```text
 lib/
-├── main.dart             // Entry point aplikasi
+├── main.dart             // Entry point aplikasi & konfigurasi tema
 ├── models/
 │   └── investment.dart   // Model data (Class Investment)
 └── pages/
-    ├── landing_page.dart // Halaman pembuka aplikasi
-    ├── home_page.dart    // Halaman utama (List & Filter)
-    └── form_page.dart    // Halaman tambah & edit data
+    ├── landing_page.dart // UI Halaman Awal (Navy & Gold)
+    ├── home_page.dart    // UI Daftar Portofolio, Filter, & Delete
+    └── form_page.dart    // UI Input Data (Create & Update)
