@@ -18,6 +18,7 @@
 ## 🚀 Dokumentasi Tampilan Aplikasi
 
 ### 1. Landing Page
+
 <img width="627" height="1020" alt="Screenshot 2026-02-26 090406" src="https://github.com/user-attachments/assets/b1f0312b-7c1e-4cd9-8dbf-0c550a481fc3" />
 
 **Deskripsi:**
@@ -25,23 +26,35 @@
 Halaman pembuka yang menyambut pengguna dengan desain elegan bertema *Premium Navy & Gold*. Halaman ini berfungsi sebagai gerbang utama dan memiliki tombol navigasi **"Start Managing Portfolio"** untuk masuk ke sistem utama.
 
 ### 2. Halaman Utama (Home & Portfolio)
-![Home Page](masukkan_link_foto_home)
+
+<img width="631" height="1018" alt="Screenshot 2026-02-26 122109" src="https://github.com/user-attachments/assets/3ab04127-99db-4e5a-b216-dcd36dd840b2" />
+
 **Deskripsi:**
+
 Halaman ini menampilkan seluruh daftar aset yang dimiliki (Fitur Read). Data ditampilkan dalam bentuk kartu (Card) yang berisi nama aset, kategori, dan nominal.
 
 ### 3. Form Input Investasi (Create)
-![Form Page](masukkan_link_foto_form)
+
+<img width="631" height="1022" alt="Screenshot 2026-02-26 122608" src="https://github.com/user-attachments/assets/79d4b9ad-1673-4185-a518-6b225a3e1344" />
+
 **Deskripsi:**
+
 Formulir yang digunakan untuk menambahkan aset baru. Pengguna memilih kategori melalui **Dropdown**, memasukkan nama aset, dan nominal. Terdapat validasi untuk memastikan data tidak kosong sebelum disimpan.
 
 ### 4. Fitur Update (Edit Aset)
-![Update Aset](masukkan_link_foto_update)
+
+<img width="630" height="1020" alt="Screenshot 2026-02-26 122646" src="https://github.com/user-attachments/assets/ea504f3a-33b6-45f6-8d31-00ed818f4e9a" />
+
 **Deskripsi:**
+
 Pengguna dapat mengubah data dengan menekan **Icon Edit (Pensil Biru)** pada daftar aset. Aplikasi akan mengarahkan pengguna kembali ke halaman Form dengan data lama yang sudah terisi otomatis. Setelah disimpan, data akan diperbarui secara real-time disertai notifikasi **SnackBar** berwarna biru.
 
 ### 5. Fitur Delete (Hapus Aset)
-![Delete Aset](masukkan_link_foto_delete)
+
+<img width="630" height="1019" alt="Screenshot 2026-02-26 122657" src="https://github.com/user-attachments/assets/a67ab4be-5c9e-4de3-a819-b6f4f9ba434a" />
+
 **Deskripsi:**
+
 Untuk menghapus aset, pengguna cukup menekan **Icon Delete (Tempat Sampah Merah)**. Data akan langsung terhapus dari daftar portofolio, dan aplikasi akan memunculkan **SnackBar** berwarna merah sebagai konfirmasi bahwa data telah berhasil dihapus.
 
 ### 6. Fitur Filter Kategori
