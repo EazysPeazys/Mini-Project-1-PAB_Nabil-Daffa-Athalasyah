@@ -58,8 +58,11 @@ Pengguna dapat mengubah data dengan menekan **Icon Edit (Pensil Biru)** pada daf
 Untuk menghapus aset, pengguna cukup menekan **Icon Delete (Tempat Sampah Merah)**. Data akan langsung terhapus dari daftar portofolio, dan aplikasi akan memunculkan **SnackBar** berwarna merah sebagai konfirmasi bahwa data telah berhasil dihapus.
 
 ### 6. Fitur Filter Kategori
-![Filter Aset](masukkan_link_foto_filter)
+
+<img width="629" height="1020" alt="Screenshot 2026-02-26 122617" src="https://github.com/user-attachments/assets/e42b0076-ec69-499d-896f-6703ce609993" />
+
 **Deskripsi:**
+
 Terdapat fitur **ChoiceChips** di bagian atas halaman utama yang memungkinkan pengguna menyaring daftar aset berdasarkan 7 kategori (Deposito, Reksa Dana, Obligasi, Emas, Saham, Crypto, Property). Filter "All" digunakan untuk menampilkan kembali seluruh aset.
 
 ---
